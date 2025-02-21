@@ -14,7 +14,7 @@ if(NOT TARGET ICU::i18n)
 endif()
 # special case end
 
-qt_find_package(WrapIconv PROVIDED_TARGETS WrapIconv::WrapIconv MODULE_NAME core5compat QMAKE_LIB iconv)
+#qt_find_package(WrapIconv PROVIDED_TARGETS WrapIconv::WrapIconv MODULE_NAME core5compat QMAKE_LIB iconv)
 
 
 #### Tests
